@@ -1,0 +1,20 @@
+default: &default
+  host: dbhost
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  user: user
+development:
+  <<: *default
+  database: generic_ror_6_development
+test:
+  <<: *default
+  database: generic_ror_6_test
+staging:
+  <<: *default
+  adapter: <%= ENV['DB_ADAPTER'] ||= 'postgresql' %>
+  database: generic_ror_6_staging
+production:
+  <<: *default
+  adapter: <%= ENV['DB_ADAPTER'] ||= 'postgresql' %>
+  database: generic_ror_6_production

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import '../stylesheets/fontawesome.scss';","map":{"version":3,"sources":["/usr/src/app/app/webpacker/packs/fontawesome.js"],"names":[],"mappings":"AAAA,OAAO,iCAAP","sourcesContent":["import '../stylesheets/fontawesome.scss';\n"]},"metadata":{},"sourceType":"module"}
