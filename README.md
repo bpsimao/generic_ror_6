@@ -1,19 +1,15 @@
-# Generir RoR 6
+# Generic RoR 6
 Ruby on Rails 6
 
 ## LEIA-ME
 Esse LEIA-ME contêm as etapas necessárias para que a aplicação funcione corretamente.
 
 ### Informações sobre o projeto
-* **Analisador de código:** Rubocop *v0.59.2*
-
-* **Banco de dados:** PostgreSQL *v13.1*
+* **Banco de dados:** PostgreSQL *v9.4.9*
 
 * **Conteinerização:** Docker *v18.09.1 - build: 4c52b90*
 
 * **Framework:** Rails *v6.0.0.rc2*
-
-* **Framework BDD:** RSpec *v3.8.2*
 
 * **Linguagem:** Ruby *v2.6.0p0*
 
