@@ -10,7 +10,7 @@ gem 'awesome_print'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'foreman'
 gem 'pg'
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 4.3'
 gem 'rails', '~> 6.0.0.rc1'
 gem 'webpacker', '~> 4.0'
 
